@@ -1,0 +1,17 @@
+Lamp on EC2 - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2.html
+
+#use elastic IP for domain registration
+
+wget https://wordpress.org/latest.tar.gz
+tar -xzf latest.tar.gz
+sudo systemctl start mariadb
+sudo service mysqld start
+#provide root password of your db
+mysql -u root -p
+#create user and password for MySQL db
+CREATE USER 'wordpress-user'@'localhost' IDENTIFIED BY 'your_strong_password';
+CREATE DATABASE `wordpress-db`;
+GRANT ALL PRIVILEGES ON `wordpress-db`.* TO "wordpress-user"@"localhost";
+FLUSH PRIVILEGES;
+#exit MySQL client
+exit
