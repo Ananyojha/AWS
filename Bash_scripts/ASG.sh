@@ -1,3 +1,12 @@
+echo"set the default variables first."
+echo -n "keypair path - " ; read KEYPAIR
+echo -n "instance name " ; read Instance
+echo -n " Ami -- "; read AMIID
+echo -n "keyname -- " ; read KEYNAME
+echo -n "Sg -- " ; read EC2SECURITYGROUPID
+echo -n "subnets fill karde $SUBNET 1 OR 2 HAI.." 
+
+
 chmod 400 $KEYPAIR.pem
 
 ssh -i KEYPAIR.pem ec2-user@$Instance
