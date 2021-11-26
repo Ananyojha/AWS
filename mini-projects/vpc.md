@@ -3,8 +3,17 @@
 ## Architecture of the Project
 
 Because your DB instance only needs to be available to your web server, and not to the public Internet, you create a VPC with both public and private subnets. The web server is hosted in the public subnet, so that it can reach the public Internet. The DB instance is hosted in a private subnet. 
+___________________
+
+## Step by Step setup
+
+### Create a VPC 
+
+In the menu search for VPC, on left navigation search for ** your vpc's ** -> create VPC -> IP - 10.0.0.0/16
 
 
+
+________________________
 
 Subnet settings - 
 Auto-assign IP settings: Enables you to configure the auto-assign IP settings to automatically request a public IPv4 or IPv6 address for a new network interface in this subnet. For more information about these settings, see Work with IP addresses.
