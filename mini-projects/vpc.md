@@ -1,5 +1,11 @@
 # AWS VPC Hands-on
 
+## Architecture of the Project
+
+Because your DB instance only needs to be available to your web server, and not to the public Internet, you create a VPC with both public and private subnets. The web server is hosted in the public subnet, so that it can reach the public Internet. The DB instance is hosted in a private subnet. 
+
+
+
 Subnet settings - 
 Auto-assign IP settings: Enables you to configure the auto-assign IP settings to automatically request a public IPv4 or IPv6 address for a new network interface in this subnet. For more information about these settings, see Work with IP addresses.
 Example -  ip-10-24-34-0.us-west-2.compute.internal
