@@ -2,6 +2,8 @@
 TO UNDERSTAND THE `BASICS OF VPC` PLEASE CHECK HERE.
 This guide will guide you to CREATE A WEB ADDRESS BOOK. You will get step by step guide to preapare your vpc only.
 
+![Screenshot of Web Address Book ](https://s3-us-west-2.amazonaws.com/us-west-2-aws-training/awsu-spl/spl-13/images/address-book.png)
+
 ## COST OF PROJECT 
  _Within Free tier limits_ 
 
