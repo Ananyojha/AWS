@@ -1,5 +1,5 @@
 # AWS VPC Hands-on
-TO UNDERSTAND THE `BASICS OF VPC` PLEASE CHECK HERE.
+TO UNDERSTAND THE `BASICS OF VPC` [PLEASE CHECK HERE](https://ananayojha.medium.com/what-is-a-vpc-b2cf2a7dca3b).
 This guide will guide you to CREATE A WEB ADDRESS BOOK. You will get step by step guide.
 
 ![Screenshot of Web Address Book ](https://s3-us-west-2.amazonaws.com/us-west-2-aws-training/awsu-spl/spl-13/images/address-book.png)
