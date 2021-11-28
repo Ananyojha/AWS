@@ -11,7 +11,7 @@ This guide will guide you to CREATE A WEB ADDRESS BOOK. You will get step by ste
 To create a Public Subnet (for EC2 to host our address Book Application) and 2 private Subnet to place our RDS Database (MySql)
 
 ## Prerequisite
-We assume that you know How to [create a ec2 instance with user data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-add-user-data.html#:~:text=%20When%20working%20with%20instance%20user%20data%2C%20keep,up%20to%20the%20instance%20to%20be...%20More%20) & a [RDS Database](https://aws.amazon.com/getting-started/hands-on/create-mysql-db/)
+We assume that you know How to [create a ec2 instance with user data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-add-user-data.html#:~:text=%20When%20working%20with%20instance%20user%20data%2C%20keep,up%20to%20the%20instance%20to%20be...%20More%20) & [RDS Database](https://aws.amazon.com/getting-started/hands-on/create-mysql-db/)
 
 ## Architecture of the Project
 
@@ -68,11 +68,32 @@ Now create a `t2.micro` insatnce with this [user data](https://github.com/Ananyo
 
 ### Create a MYSQL RDS DATABASE
 
+#### create a subnet group
+
+- Open RDS CONSOLE, `on left navigation menu -> Subnet Group -> Give a Name & Description -> select your VPC -> below in add subnets -> select the availability zones of your Private subnet -> select IP of both subnets `
+
+#### create the Database (please be sure to copy the exact steps)
+
+- Engine option: MySQL
+- Version: 5.7.31
+- templates: free tier
+- DB instance identifier: myDB
+- master username: admin
+- password: lab-password
+- VPC: select your VPC 
+- security groups:
+    select existing: remove default add database-sg
+
+Remove all other settings as default
+
 ![RDS CONSOLE](https://github.com/Ananyojha/spare-images/blob/main/IMG_20211128_181702.png)
 
-
 ### Connect EC2 instance to database
+
 ![Image showing instance's web page](https://s3-us-west-2.amazonaws.com/us-west-2-aws-training/awsu-spl/spl-13/images/frontend-webserver.png)
+
+Enter the endpoint copied from RDS CONSOLE once the database is  `available`
+Fill other details as accordingly.
 
 # Be sure to Delete the VPC and other Resources !!
 ________________________
