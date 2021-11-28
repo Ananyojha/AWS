@@ -48,7 +48,7 @@ __Create a Route Table__
 Left navigation menu -> `Routes -> Name: whatever -> VPC: The VPC YOU CREATED -> add route -> Destination 0.0.0.0/0 -> Target: Internet Gateway -> create`
 #### NOTE: after created, select the route -> subnet associations -> associate it to YOUR PUBLIC SUBNET
 
-!(https://github.com/Ananyojha/spare-images/blob/main/IMG_20211128_181847.png)
+![Route Table Screenshot](https://github.com/Ananyojha/spare-images/blob/main/IMG_20211128_181847.png)
 
 __Security Groups__
 left navigation menu `Security group-> create ->` then :
