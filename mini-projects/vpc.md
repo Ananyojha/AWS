@@ -1,4 +1,11 @@
 # AWS VPC Hands-on
+TO UNDERSTAND THE `BASICS OF VPC` PLEASE CHECK HERE.
+
+## COST OF PROJECT 
+ _Within Free tier limits_ 
+
+## Aim 
+To create a Public Subnet (for EC2 to host our address Book Application) and 2 private Subnet to place our RDS Database ()
 
 ## Architecture of the Project
 
