@@ -5,20 +5,38 @@ TO UNDERSTAND THE `BASICS OF VPC` PLEASE CHECK HERE.
  _Within Free tier limits_ 
 
 ## Aim 
-To create a Public Subnet (for EC2 to host our address Book Application) and 2 private Subnet to place our RDS Database ()
+To create a Public Subnet (for EC2 to host our address Book Application) and 2 private Subnet to place our RDS Database (MySql)
 
 ## Architecture of the Project
 
-Because your DB instance only needs to be available to your web server, and not to the public Internet, you create a VPC with both public and private subnets. The web server is hosted in the public subnet, so that it can reach the public Internet. The DB instance is hosted in a private subnet. 
+Ideally, your DB instance only needs to be available to your web server, and not to the public Internet. You create a VPC with both public and private subnets. The web server is hosted in the public subnet, so that it can reach the public Internet. The DB instance is hosted in a private subnet. 
 ___________________
 
 ## Step by Step setup
+It's a best practice to __TAG__ every resource you create, to find it easily. But it's totally optional. 
 
-### Create a VPC 
+### Preapare your VPC 
 
-In the menu search for VPC, on left navigation search for ** your vpc's ** -> create VPC -> IP - 10.0.0.0/16
+ __Create VPC__
+In the menu search for VPC, on left navigation find  `your vpc's ** -> create VPC -> Name : Whatever you like -> IP - 10.0.0.0/16 or any other valid CIDR`
 
+__Create Subnets__
+WE WILL CREATE TOTAL 3 SUBNETS :
+Repeat the process below 3 times, each time entering the diffrent IP address given below
+In the left pane :` Subnets -> Create Subnets -> Choose The __VPC__ you created before -> subnet name: Whatever you like -> IP Ranges (Refer below) ` 
+IP Ranges :
+- 10.0.1.0/24 : Public Subnet
+- 10.0.2.0/24 : Private Subnet 1
+- 10.0.3.0/24 : Private subnet 2
 
+- __NOTE__ : After creating the Public Subnet, select it -> actions -> edit -> check the box for Auto-assign IP settings.
+
+__Create Internet Gateway__
+Left navigation menu -> `Internet Gateway -> create -> Name Tag: Whatever name You Like -> Create Gateway`
+__After Creating it, select the Gateway you created -> actions -> attach to VPC -> The VPC YOU CREATED__
+
+__Create a Route Table__
+Left navigation menu -> `Routes -> Name: whatever -> VPC: The VPC YOU CREATED -> `
 
 ________________________
 
