@@ -40,6 +40,8 @@ IP Ranges :
 
 - __NOTE__ : After creating the Public Subnet, select it -> actions -> edit -> check the box for Auto-assign IP settings.
 
+![](https://github.com/Ananyojha/spare-images/blob/main/IMG_20211128_182146.png)
+
 __Create Internet Gateway__
 Left navigation menu -> `Internet Gateway -> create -> Name Tag: Whatever name You Like -> Create Gateway`
 __After Creating it, select the Gateway you created -> actions -> attach to VPC -> __The VPC YOU CREATED__
