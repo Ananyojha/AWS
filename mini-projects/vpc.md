@@ -23,7 +23,12 @@ It's a best practice to __TAG__ every resource you create, to find it easily. Bu
 
  __Create VPC__
 In the menu search for VPC, on left navigation find  `your vpc's ** -> create VPC -> Name : Whatever you like -> IP - 10.0.0.0/16 or any other valid CIDR`
+
 ![VPC console image](https://github.com/Ananyojha/spare-images/blob/main/IMG_20211128_181433.png)
+
+- You can also select the region on top right corner in (red block).
+- The centre shows every VPC component deployed.
+
 __Create Subnets__
 WE WILL CREATE TOTAL 3 SUBNETS :
 Repeat the process below 3 times, each time entering the diffrent IP address given below
