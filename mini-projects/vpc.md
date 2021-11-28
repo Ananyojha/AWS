@@ -16,12 +16,12 @@ We assume that you know How to [create a ec2 instance with user data](https://do
 Ideally, your DB instance only needs to be available to your web server, and not to the public Internet. You create a VPC with both public and private subnets. The web server is hosted in the public subnet, so that it can reach the public Internet. The DB instance is hosted in a private subnet. 
 ___________________
 
-## Step by Step setup
+# Step by Step setup
 It's a best practice to __TAG__ every resource you create, to find it easily. But it's totally optional. 
 
-### Preapare your VPC 
+## Preapare your VPC 
 
- __Create VPC__
+### Create VPC
 In the menu search for VPC, on left navigation find  `your vpc's ** -> create VPC -> Name : Whatever you like -> IP - 10.0.0.0/16 or any other valid CIDR`
 
 ![VPC console image](https://github.com/Ananyojha/spare-images/blob/main/IMG_20211128_181433.png)
@@ -29,7 +29,7 @@ In the menu search for VPC, on left navigation find  `your vpc's ** -> create VP
 - You can also select the region on top right corner in (red block).
 - The centre shows every VPC component deployed.
 
-__Create Subnets__
+### Create Subnets
 WE WILL CREATE TOTAL 3 SUBNETS :
 Repeat the process below 3 times, each time entering the diffrent IP address given below
 In the left pane :` Subnets -> Create Subnets -> Choose The __VPC__ you created before -> subnet name: Whatever you like -> IP Ranges (Refer below) -> availabilty zone : different for each subnet ` 
@@ -42,7 +42,9 @@ IP Ranges :
 
 __Create Internet Gateway__
 Left navigation menu -> `Internet Gateway -> create -> Name Tag: Whatever name You Like -> Create Gateway`
-__After Creating it, select the Gateway you created -> actions -> attach to VPC -> The VPC YOU CREATED__
+__After Creating it, select the Gateway you created -> actions -> attach to VPC -> __The VPC YOU CREATED__
+
+![](https://github.com/Ananyojha/spare-images/blob/main/IMG_20211128_181953.png)
 
 __Create a Route Table__
 Left navigation menu -> `Routes -> Name: whatever -> VPC: The VPC YOU CREATED -> add route -> Destination 0.0.0.0/0 -> Target: Internet Gateway -> create`
