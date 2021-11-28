@@ -18,6 +18,8 @@ We assume that you know How to [create a ec2 instance with user data](https://do
 
 ## Architecture of the Project
 
+![](https://miro.medium.com/max/982/1*WeFibm0_z91CQi806syiiw.png)
+
 Ideally, your DB instance only needs to be available to your web server, and not to the public Internet. You create a VPC with both public and private subnets. The web server is hosted in the public subnet, so that it can reach the public Internet. The DB instance is hosted in a private subnet. 
 ___________________
 
