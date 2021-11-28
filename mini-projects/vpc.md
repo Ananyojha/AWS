@@ -60,6 +60,8 @@ Now create a `t2.micro` insatnce with this [user data](https://github.com/Ananyo
 
 ### Create a MYSQL RDS DATABASE
 
+![RDS CONSOLE](https://github.com/Ananyojha/spare-images/blob/main/IMG_20211128_181702.png)
+
 
 ### Connect EC2 instance to database
 ![Image showing instance's web page](https://s3-us-west-2.amazonaws.com/us-west-2-aws-training/awsu-spl/spl-13/images/frontend-webserver.png)
