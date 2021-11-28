@@ -44,19 +44,19 @@ IP Ranges :
 
 ![](https://github.com/Ananyojha/spare-images/blob/main/IMG_20211128_182146.png)
 
-__Create Internet Gateway__
+### Create Internet Gateway
 Left navigation menu -> `Internet Gateway -> create -> Name Tag: Whatever name You Like -> Create Gateway`
 __After Creating it, select the Gateway you created -> actions -> attach to VPC -> __The VPC YOU CREATED__
 
 ![](https://github.com/Ananyojha/spare-images/blob/main/IMG_20211128_181953.png)
 
-__Create a Route Table__
+### Create a Route Table
 Left navigation menu -> `Routes -> Name: whatever -> VPC: The VPC YOU CREATED -> add route -> Destination 0.0.0.0/0 -> Target: Internet Gateway -> create`
 #### NOTE: after created, select the route -> subnet associations -> associate it to YOUR PUBLIC SUBNET
 
 ![Route Table Screenshot](https://github.com/Ananyojha/spare-images/blob/main/IMG_20211128_181847.png)
 
-__Security Groups__
+### Security Groups
 left navigation menu `Security group-> create ->` then :
 - for our ec2 instance: `Name: webserver sg -> Decscription: anyting you like` ->  `inbound rule: type : http -> source: anywhere ipv4 `
 - #### NOTE: copy ID of this security group after creation
