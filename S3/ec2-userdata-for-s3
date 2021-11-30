@@ -1,0 +1,4 @@
+#!/bin/bash
+yum update -y aws-cfn-bootstrap
+/opt/aws/bin/cfn-init -v --stack qls-38983279-7b5fb0724e0430dc --resource EC2Instance --configsets InstallTools --region us-west-2
+/opt/aws/bin/cfn-signal -e $? --stack qls-38983279-7b5fb0724e0430dc --resource EC2Instance --region us-west-2
