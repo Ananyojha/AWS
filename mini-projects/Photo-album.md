@@ -20,6 +20,15 @@ npm install -g db-migrate
 
 ## keep your node app running
 PM2 is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks. You can read more about pm2.
+Or in your package.json file, configure the start section like --
+```js
+{
+  "scripts": {
+    "start": "pm2-runtime start ecosystem.config.js --env production"
+  }
+}
+```
+# or 
 
 ```js
 npm install pm2 -g
