@@ -12,3 +12,11 @@ npm install aws-sdk
 ```js
 npm install -g db-migrate
 ```
+
+## keep your node app running
+
+```js
+npm install pm2 -g
+sudo pm2 start app.js
+sudo pm2 startup
+```
