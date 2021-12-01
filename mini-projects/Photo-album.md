@@ -4,9 +4,14 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 . ~/.nvm/nvm.sh
 nvm install node
 node -- version
+npm -v
 npm install aws-sdk
 ``` 
-
+## install git
+```bash
+sudo yum upgrade -y
+sudo yum install git
+```
 
 ## Install db migrate 
 ```js
