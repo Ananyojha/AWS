@@ -7,7 +7,7 @@ node -- version
 ``` 
 
 
-##Install db migrate 
+## Install db migrate 
 ```js
 npm install -g db-migrate
 ```
