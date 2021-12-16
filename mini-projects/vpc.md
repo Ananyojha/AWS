@@ -1,6 +1,6 @@
 # AWS VPC Hands-on
 TO UNDERSTAND THE `BASICS OF VPC` [PLEASE CHECK HERE](https://ananayojha.medium.com/what-is-a-vpc-b2cf2a7dca3b).
-This guide will guide you to CREATE A WEB ADDRESS BOOK. You will get step by step guide.
+This repo will guide you to **CREATE A WEB ADDRESS BOOK** in a  step by step way
 
 #### to watch the video of the address Book, click on the link below
 
@@ -15,7 +15,7 @@ https://drive.google.com/file/d/1QQEaT_JXwvnuoAxJXILtnOkxOf9DZtca/view?usp=drive
 To create a Public Subnet (for EC2 to host our address Book Application) and 2 private Subnet to place our RDS Database (MySql)
 
 ## Scenerio
-Your development team created the code for a web address book that uses MySQL database in the backend. You have to deploy the architecture now.
+Your development team created the code for a web address book that uses MySQL database in the backend. Being an Cloud Engineer, You have to deploy the architecture now.
 
 ## Prerequisite
 We assume that you know How to [create a ec2 instance with user data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-add-user-data.html#:~:text=%20When%20working%20with%20instance%20user%20data%2C%20keep,up%20to%20the%20instance%20to%20be...%20More%20) & [RDS Database](https://aws.amazon.com/getting-started/hands-on/create-mysql-db/)
