@@ -9,8 +9,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-
 
 
 ```sh
-cd /var/www
-git clone
+mkdir /var/www/tutorial
+git clone https://github.com/Ananyojha/ananyojha.github.io.git --bare
 touch /etc/nginx/sites-enabled/tutorial
 
 ```
