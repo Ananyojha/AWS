@@ -7,6 +7,8 @@
 1. [AWS workshops](https://awsworkshop.io/)
 2. [AWS well architect labs ](https://wellarchitectedlabs.com/)
 3.  [Back to basics](https://aws.amazon.com/architecture/back-to-basics/?tma.sort-by=item.additionalFields.airDate&tma.sort-order=desc&awsf.categories=*all) by prasad rao
+4. [Git in depth](https://gitimmersion.com/index.html)
+
 
 [User Script](https://github.com/Ananyojha/AWS/blob/main/Bash_scripts/qwiklabs.-asg.sh) for EC2 which also tells about the load on the instance. 
 
