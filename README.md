@@ -13,6 +13,7 @@
 [User Script](https://github.com/Ananyojha/AWS/blob/main/Bash_scripts/qwiklabs.-asg.sh) for EC2 which also tells about the load on the instance. 
 - AWS WORKSHOP [SCRIPT](https://s3.amazonaws.com/immersionday-labs/bootstrap.sh)
 
+- [JSON IN YOUTUBE](https://www.youtube.com/playlist?list=PLEzQf147-uEoNCeDlRrXv6ClsLDN-HtNm)
 
 NAT is helpful for when a resource needs to pull down updates from the internet but should not be publicly accessible.
 
