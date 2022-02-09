@@ -12,7 +12,7 @@
 
 [User Script](https://github.com/Ananyojha/AWS/blob/main/Bash_scripts/qwiklabs.-asg.sh) for EC2 which also tells about the load on the instance. 
 - AWS WORKSHOP [SCRIPT](https://s3.amazonaws.com/immersionday-labs/bootstrap.sh)
-
+NAT is helpful for when a resource needs to pull down updates from the internet but should not be publicly accessible.
 - AWS CLI 
  ```
 export AWS_DEFAULT_REGION=ap-southeast-2
