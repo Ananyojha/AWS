@@ -13,6 +13,14 @@
 [User Script](https://github.com/Ananyojha/AWS/blob/main/Bash_scripts/qwiklabs.-asg.sh) for EC2 which also tells about the load on the instance. 
 - AWS WORKSHOP [SCRIPT](https://s3.amazonaws.com/immersionday-labs/bootstrap.sh)
 
+- AWS CLI 
+ ```
+export AWS_DEFAULT_REGION=ap-southeast-2
+export AWS_ACCESS_KEY_ID=ASIAT5KG7T74U7N5GNXI
+export AWS_SECRET_ACCESS_KEY=ljniiCeJ9oLSTjYNoNfUJnC+grdc8j8j3x7gDEE3
+export AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEL7//////////wEaCXVzLWVhc3QtMSJGMEQCIAIUNx0QLAdajMR9FLVvMx2Mv
+```
+
 [Setup AWS Free Tier Budget Alerts](https://aws.amazon.com/getting-started/hands-on/control-your-costs-free-tier-budgets/)
 
 ## [ALB CLI](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/tutorial-application-load-balancer-cli.html)
