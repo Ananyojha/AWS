@@ -1,4 +1,7 @@
 [linkedin tutorial check](https://www.linkedin.com/pulse/azure-vnet-aws-vpc-thor-draper-jr)
+
+[Cloudthat](https://blog.cloudthat.com/site-to-site-vpn-connection-between-aws-azure/)
+
 [AZURE BGP REUIRES](https://docs.microsoft.com/en-us/azure/vpn-gateway/bgp-howto#about)
 
 PC PEERING 
