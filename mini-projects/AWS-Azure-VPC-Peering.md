@@ -1,5 +1,5 @@
 [linkedin tutorial check](https://www.linkedin.com/pulse/azure-vnet-aws-vpc-thor-draper-jr)
-
+[AZURE BGP REUIRES](https://docs.microsoft.com/en-us/azure/vpn-gateway/bgp-howto#about)
 
 PC PEERING 
 There is no charge for creating VPC peering connections, however, data transfer across peering connections is charged. See the Data Transfer section of the EC2 Pricing page for data transfer rates.
