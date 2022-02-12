@@ -1,4 +1,7 @@
-VPC PEERING 
+[linkedin tutorial check](https://www.linkedin.com/pulse/azure-vnet-aws-vpc-thor-draper-jr)
+
+
+PC PEERING 
 There is no charge for creating VPC peering connections, however, data transfer across peering connections is charged. See the Data Transfer section of the EC2 Pricing page for data transfer rates.
 Can I use AWS Direct Connect or hardware VPN connections to access VPCs I'm peered with?
 No. "Edge to Edge routing" isn't supported in Amazon VPC. Refer to the VPC Peering Guide for additional information
