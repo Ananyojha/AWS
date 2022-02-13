@@ -1,3 +1,7 @@
+[OFFICIAL MS](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/how-to-create-a-vpn-between-azure-and-aws-using-only-managed/ba-p/2281900)
+
+
+
 [linkedin tutorial check](https://www.linkedin.com/pulse/azure-vnet-aws-vpc-thor-draper-jr)
 
 [Cloudthat](https://blog.cloudthat.com/site-to-site-vpn-connection-between-aws-azure/)
