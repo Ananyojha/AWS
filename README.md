@@ -19,6 +19,8 @@ NAT is helpful for when a resource needs to pull down updates from the internet 
 
 it is best practice for your VPC’s main route table to not have a route to an IGW so that subnets are private by default and only public if specified.
 
+[Ad connect](https://docs.microsoft.com/en-us/azure/active-directory/cloud-sync/tutorial-single-forest)
+
 - AWS CLI 
  ```
 export AWS_DEFAULT_REGION=ap-southeast-2
