@@ -30,6 +30,9 @@ export AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEL7//////////wEaCXVzLWVhc3QtMSJGMEQCIAI
 ```
 
 ## SAA resources by Julie Elkins
+
+> [Notion](https://midnight-element-609.notion.site/SheBuilds-AWS-Certified-Solutions-Architect-CSA-FAQs-links-and-study-group-v1-3e5c9e87ce9147ba9fde954fa1f5ec96)
+
 ✓ [Quiz on YouTube](https://m.youtube.com/playlist?list=PLBFD3bw_QT1YJe34JPM9MtR5tiVIekxBH)
 
 ✓ [Certification Quiz on YouTube](https://m.youtube.com/watch?v=VZXnGtAqxYY)
