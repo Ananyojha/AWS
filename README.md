@@ -35,6 +35,9 @@ export AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEL7//////////wEaCXVzLWVhc3QtMSJGMEQCIAI
 ✓ [Certification Quiz on YouTube](https://m.youtube.com/watch?v=VZXnGtAqxYY)
 
 ✓ [AWS POWER HOUR]()
+
+✓ [Training from AWS Experts](https://aws.amazon.com/training/events/?get-certified-vilt-courses&get-certified-vilt-courses-cards.sort-by=item.additionalFields.startDateSort&get-certified-vilt-courses-cards.sort-order=asc&awsf.get-certified-vilt-courses-type=*all&awsf.get-certified-vilt-courses-series=*all&awsf.get-certified-vilt-audience=*all&awsf.get-certified-vilt-locations=*all&awsf.get-certified-vilt-countries=*all&awsf.get-certified-vilt-languages=*all&awsf.get-certified-vilt-courses-level=*all&awsf.get-certified-vilt-courses-tech-category=*all)
+
 [Setup AWS Free Tier Budget Alerts](https://aws.amazon.com/getting-started/hands-on/control-your-costs-free-tier-budgets/)
 
 ## [ALB CLI](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/tutorial-application-load-balancer-cli.html)
