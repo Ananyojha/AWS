@@ -30,9 +30,11 @@ export AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEL7//////////wEaCXVzLWVhc3QtMSJGMEQCIAI
 ```
 
 ## SAA resources by Julie Elkins
-[Quiz on YouTube](https://m.youtube.com/playlist?list=PLBFD3bw_QT1YJe34JPM9MtR5tiVIekxBH)
+✓ [Quiz on YouTube](https://m.youtube.com/playlist?list=PLBFD3bw_QT1YJe34JPM9MtR5tiVIekxBH)
 
+✓ [Certification Quiz on YouTube](https://m.youtube.com/watch?v=VZXnGtAqxYY)
 
+✓ [AWS POWER HOUR]()
 [Setup AWS Free Tier Budget Alerts](https://aws.amazon.com/getting-started/hands-on/control-your-costs-free-tier-budgets/)
 
 ## [ALB CLI](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/tutorial-application-load-balancer-cli.html)
