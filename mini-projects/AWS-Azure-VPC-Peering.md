@@ -1,3 +1,5 @@
+[YouTube tutorial](https://youtu.be/7HM2-ySYxvo)
+
 [OFFICIAL MS](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/how-to-create-a-vpn-between-azure-and-aws-using-only-managed/ba-p/2281900)
 
 [yt](https://youtu.be/w5OFuy1-ngw)
