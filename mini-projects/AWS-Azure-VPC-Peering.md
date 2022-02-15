@@ -6,6 +6,8 @@
 
 [Cloudthat](https://blog.cloudthat.com/site-to-site-vpn-connection-between-aws-azure/)
 
+[azure site to site using powershell](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-create-site-to-site-rm-powershell)
+
 [AZURE BGP REUIRES](https://docs.microsoft.com/en-us/azure/vpn-gateway/bgp-howto#about)
 
 PC PEERING 
