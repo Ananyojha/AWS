@@ -1,5 +1,6 @@
 [YouTube tutorial by AWS](https://youtu.be/WSd0POCqklY)
 
+[tutoril in MS DOCS](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/amazon-web-service-tutorial)
 
 [AWS DOCS](https://docs.aws.amazon.com/singlesignon/latest/userguide/azure-ad-idp.html)
 
