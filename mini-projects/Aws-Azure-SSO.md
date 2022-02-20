@@ -4,6 +4,8 @@
 
 [AWS DOCS](https://docs.aws.amazon.com/singlesignon/latest/userguide/azure-ad-idp.html)
 
+[AWS SSO TROUBLESHOOTING GUIDE](https://docs.aws.amazon.com/singlesignon/latest/userguide/troubleshooting.html)
+
 AWS SSO requires the AWS Organizations  service.
 We detected that your AWS account does not currently use this service.
 In addition to using AWS SSO, AWS Organizations provides the following benefits:
