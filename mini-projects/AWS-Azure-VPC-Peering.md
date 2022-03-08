@@ -1,3 +1,6 @@
+[AWS + AZURE S2S BGP](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-aws-bgp)
+
+
 [YouTube tutorial](https://youtu.be/7HM2-ySYxvo)
 
 [OFFICIAL MS](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/how-to-create-a-vpn-between-azure-and-aws-using-only-managed/ba-p/2281900)
