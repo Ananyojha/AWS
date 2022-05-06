@@ -9,3 +9,9 @@ Single sign-on : (SSO) is a technology which combines several different applicat
 
 SCIM : System for Cross-domain Identity Management is a standard for automating the exchange of user identity information between identity domains, or IT systems
 generally used with SAML SSO 
+
+[CLOUDWATCH PRICING](https://aws.amazon.com/cloudwatch/pricing/)
+
+[EC2 PRICING](https://aws.amazon.com/ec2/pricing/)
+
+[Azure AD PRICING](https://azure.microsoft.com/en-in/pricing/details/active-directory/)
